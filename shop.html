@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>商品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+	
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="css/app.css"/>
+		<style>
+			.title {
+				margin: 20px 15px 10px;
+				color: #6d6d72;
+				font-size: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">商品列表</h1>
+		</header>-->
+
+			<div>
+
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right" href="shop-detail.html">
+						<img class="mui-media-object mui-pull-left" src="images/cbd.jpg">
+						<div class="mui-media-body">
+							茅台
+							<p class='mui-text'>¥ 200</p>
+						</div> 
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right" href="shop-detail.html">
+						<img class="mui-media-object mui-pull-left " src="images/cbd.jpg">
+						<div class="mui-media-body">
+							江小白
+						
+							<p class='mui-text'>¥ 20</p>
+					
+						</div> 
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right" href="shop-detail.html">
+						<img class="mui-media-object mui-pull-left" src="images/cbd.jpg">
+						<div class="mui-media-body">
+							牛栏山
+							<p class='mui-text'>¥ 1200</p>
+						</div> 
+					</a>
+				</li>
+				
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right" href="shop-detail.html">
+						<img class="mui-media-object mui-pull-left" src="images/cbd.jpg">
+						<div class="mui-media-body">
+							海之蓝
+							<p class='mui-text'>¥ 1100</p>
+						</div> 
+					</a>
+				</li>
+			</ul>
+			
+		
+		</div>
+
+	</body>
+	<script src="js/mui.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+	</script>
+</html>
